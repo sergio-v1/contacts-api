@@ -1,2 +1,19 @@
 # deps
 node_modules/
+
+# Bun
+.pnpm/
+# Bun cache
+.bun/
+# Bun lockfile
+bun.lockb
+# Bun build output
+build/
+# Bun test output
+test/
+# Bun coverage output
+coverage/
+# Bun config
+.bunfig.toml
+# Bun environment variables
+.env
